@@ -48,8 +48,8 @@ decoding_wavelet = "db8"
 plot_rows = 4
 plot_columns = 4
 
-to_hide_og = read_and_convert_image("to_hide.jpg")
-to_send_og = read_and_convert_image("to_send.jpg")
+to_hide_og = read_and_convert_image("./img/cake/to_hide.jpg")
+to_send_og = read_and_convert_image("./img/cake/to_send.jpg")
 
 # plot cover and image that will be hidden
 show_image_subplot(to_send_og, 2, "Cover Image")
